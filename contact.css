@@ -1,0 +1,71 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#main{
+    background-color: #000000;
+    color: white;
+}
+
+#name , #email{
+    width: 75%;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.add{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.con{
+    margin-left: 150px;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    padding: 1%;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    margin-left: 15px;
+}
+
+.conmain{
+    display: flex;
+    flex-direction: column;
+}
+
+#contactList div {
+    background-color: #f9f9f9;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+#contactList button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#contactList button:hover {
+    background-color: #ff0000;
+}
